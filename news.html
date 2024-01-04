@@ -214,18 +214,7 @@
         // Stop the auto slide when the user interacts with manual controls
         document.querySelectorAll('.slider-btn').forEach(btn => {
             btn.addEventListener('click', stopAutoSlide);
-        });
-
-        // Toggle audio playback
-        function toggleAudio() {
-            if (audio.paused) {
-                audio.play();
-                audioStatus.innerText = 'Playing';
-            } else {
-                audio.pause();
-                audioStatus.innerText = 'Paused';
-            }
-        }
+        })
     </script>
 </body>
 
