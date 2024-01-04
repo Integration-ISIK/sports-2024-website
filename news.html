@@ -9,14 +9,14 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #1a2980, #26d0ce);
+            background: linear-gradient(135deg, #004080, #33ccff);
             color: #fff;
             line-height: 1.6;
             margin: 0;
         }
 
         header {
-            background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
+            background: linear-gradient(45deg, #ff6600, #ff0000, #ffcc00);
             color: #fff;
             text-align: center;
             padding: 2em 0;
@@ -43,7 +43,7 @@
         }
 
         nav {
-            background: linear-gradient(45deg, #5c258d, #4389a2);
+            background: linear-gradient(45deg, #b82e2e, #d9534f);
             padding: 1em 0;
             text-align: center;
         }
@@ -56,12 +56,12 @@
             font-size: 1.2em;
             transition: color 0.3s ease-in-out;
             border-radius: 10px;
-            background: linear-gradient(45deg, #fd1d1d, #fcb045);
+            background: linear-gradient(45deg, #ff3300, #ffcc00);
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
 
         nav a:hover {
-            color: #4389a2;
+            color: #d9534f;
             transform: scale(1.05);
         }
 
@@ -102,7 +102,7 @@
             height: 40px;
             background-color: white;
             border: none;
-            color: #1a2980;
+            color: #004080;
             font-size: 20px;
             cursor: pointer;
             z-index: 2;
@@ -119,14 +119,10 @@
         .slider-btn-right {
             right: 0;
         }
-
-    
     </style>
 </head>
 
 <body>
-  
-
     <header>
         <img src="sports.svg" alt="Logo">
         <h1>Integration 2024, Sports Chapter</h1>
@@ -134,9 +130,7 @@
 
     <nav>
         <a href="news.html" >News</a>
-       
         <a href="index.html">Events</a>
-        
     </nav>
 
     <main>
@@ -144,38 +138,29 @@
             <h2>Latest News</h2>
 
             <div class="slider-container">
-                
                 <div class="slider">
-                    
                     <div class="slide">
                         <a href="football.jpeg" target="_blank">
                             <img src="football.jpeg" alt="News 1">
                         </a>
                     </div>
-
-                  <div class="slide">
+                    <div class="slide">
                         <a href="cricket.jpeg" target="_blank">
-                            <img src="cricket.jpeg" alt="News 1">
+                            <img src="cricket.jpeg" alt="News 2">
                         </a>
                     </div>
-
-                   <div class="slide">
+                    <div class="slide">
                         <a href="TT.jpeg" target="_blank">
-                            <img src="TT.jpeg" alt="News 1">
+                            <img src="TT.jpeg" alt="News 3">
                         </a>
                     </div>
-
-                   <div class="slide">
+                    <div class="slide">
                         <a href="auction.jpeg" target="_blank">
-                            <img src="auction.jpeg" alt="News 1">
+                            <img src="auction.jpeg" alt="News 4">
                         </a>
                     </div>
-
-
-                  
                     <!-- Add more slides as needed -->
                 </div>
-
                 <button class="slider-btn slider-btn-left" onclick="prevSlide()">❮</button>
                 <button class="slider-btn slider-btn-right" onclick="nextSlide()">❯</button>
             </div>
